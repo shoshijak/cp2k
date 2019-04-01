@@ -1,0 +1,303 @@
+slurm-H2O-dft-ls.n1.12659210.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n1.12659210.o-43-
+slurm-H2O-dft-ls.n1.12659210.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n1.12659210.o:903: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n1.12659210.o-904-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n1.12659210.o-905- CP2K                                 1  1.0    0.038    0.038    8.814    8.814
+--
+slurm-H2O-dft-ls.n1.12659210.o:1263: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n1.12659210.o-1264-
+slurm-H2O-dft-ls.n1.12659210.o-1265- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n1.12659210.o:2805: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n1.12659210.o-2806-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n1.12659210.o-2807- CP2K                                 1  1.0    0.291    0.291   97.669   97.669
+--
+slurm-H2O-dft-ls.n1.12659210.o:3118: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n1.12659210.o-3119-
+slurm-H2O-dft-ls.n1.12659210.o-3120- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n1.12659210.o:3687: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n1.12659210.o-3688-
+slurm-H2O-dft-ls.n1.12659210.o-3689- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n1.12659210.o:4258: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n1.12659210.o-4259-
+slurm-H2O-dft-ls.n1.12659210.o-4260- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n1.12659210.o:4821: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n1.12659210.o-4822-
+slurm-H2O-dft-ls.n1.12659210.o-4823- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n12.12660156.o-43-
+slurm-H2O-dft-ls.n12.12660156.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:957: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n12.12660156.o-958-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n12.12660156.o-959- CP2K                                 1  1.0    0.019    0.023    7.576    7.577
+--
+slurm-H2O-dft-ls.n12.12660156.o:1371: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n12.12660156.o-1372-
+slurm-H2O-dft-ls.n12.12660156.o-1373- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:2975: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n12.12660156.o-2976-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n12.12660156.o-2977- CP2K                                 1  1.0    0.054    0.059   26.989   26.990
+--
+slurm-H2O-dft-ls.n12.12660156.o:3363: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n12.12660156.o-3364-
+slurm-H2O-dft-ls.n12.12660156.o-3365- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:6799: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n12.12660156.o-6800-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n12.12660156.o-6801- CP2K                                 1  1.0    0.137    0.153  105.797  105.798
+--
+slurm-H2O-dft-ls.n12.12660156.o:7163: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n12.12660156.o-7164-
+slurm-H2O-dft-ls.n12.12660156.o-7165- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:14151: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n12.12660156.o-14152-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n12.12660156.o-14153- CP2K                                 1  1.0    0.344    0.359  290.251  290.252
+--
+slurm-H2O-dft-ls.n12.12660156.o:14504: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n12.12660156.o-14505-
+slurm-H2O-dft-ls.n12.12660156.o-14506- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n12.12660156.o:15770: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n12.12660156.o-15771-
+slurm-H2O-dft-ls.n12.12660156.o-15772- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n18.12660157.o-43-
+slurm-H2O-dft-ls.n18.12660157.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:957: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n18.12660157.o-958-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n18.12660157.o-959- CP2K                                 1  1.0    0.017    0.021    7.900    7.901
+--
+slurm-H2O-dft-ls.n18.12660157.o:1374: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n18.12660157.o-1375-
+slurm-H2O-dft-ls.n18.12660157.o-1376- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:2978: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n18.12660157.o-2979-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n18.12660157.o-2980- CP2K                                 1  1.0    0.044    0.049   22.664   22.665
+--
+slurm-H2O-dft-ls.n18.12660157.o:3374: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n18.12660157.o-3375-
+slurm-H2O-dft-ls.n18.12660157.o-3376- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:6825: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n18.12660157.o-6826-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n18.12660157.o-6827- CP2K                                 1  1.0    0.090    0.102   81.504   81.505
+--
+slurm-H2O-dft-ls.n18.12660157.o:7199: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n18.12660157.o-7200-
+slurm-H2O-dft-ls.n18.12660157.o-7201- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:14202: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n18.12660157.o-14203-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n18.12660157.o-14204- CP2K                                 1  1.0    0.234    0.239  209.609  209.610
+--
+slurm-H2O-dft-ls.n18.12660157.o:14560: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n18.12660157.o-14561-
+slurm-H2O-dft-ls.n18.12660157.o-14562- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n18.12660157.o:27419: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n18.12660157.o-27420-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n18.12660157.o-27421- CP2K                                 1  1.0    0.445    0.456  415.942  415.944
+--
+slurm-H2O-dft-ls.n18.12660157.o:27765: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n18.12660157.o-27766-
+slurm-H2O-dft-ls.n18.12660157.o-27767- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n24.12660159.o-43-
+slurm-H2O-dft-ls.n24.12660159.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:957: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n24.12660159.o-958-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n24.12660159.o-959- CP2K                                 1  1.0    0.019    0.022    9.454    9.455
+--
+slurm-H2O-dft-ls.n24.12660159.o:1385: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n24.12660159.o-1386-
+slurm-H2O-dft-ls.n24.12660159.o-1387- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:2989: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n24.12660159.o-2990-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n24.12660159.o-2991- CP2K                                 1  1.0    0.037    0.041   21.710   21.711
+--
+slurm-H2O-dft-ls.n24.12660159.o:3386: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n24.12660159.o-3387-
+slurm-H2O-dft-ls.n24.12660159.o-3388- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:6837: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n24.12660159.o-6838-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n24.12660159.o-6839- CP2K                                 1  1.0    0.070    0.075   69.270   69.270
+--
+slurm-H2O-dft-ls.n24.12660159.o:7211: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n24.12660159.o-7212-
+slurm-H2O-dft-ls.n24.12660159.o-7213- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:14214: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n24.12660159.o-14215-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n24.12660159.o-14216- CP2K                                 1  1.0    0.183    0.189  179.205  179.206
+--
+slurm-H2O-dft-ls.n24.12660159.o:14571: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n24.12660159.o-14572-
+slurm-H2O-dft-ls.n24.12660159.o-14573- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n24.12660159.o:27442: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n24.12660159.o-27443-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n24.12660159.o-27444- CP2K                                 1  1.0    0.339    0.350  354.489  354.490
+--
+slurm-H2O-dft-ls.n24.12660159.o:27794: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n24.12660159.o-27795-
+slurm-H2O-dft-ls.n24.12660159.o-27796- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n30.12660160.o-43-
+slurm-H2O-dft-ls.n30.12660160.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:957: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-958-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-959- CP2K                                 1  1.0    0.016    0.019    6.467    6.467
+--
+slurm-H2O-dft-ls.n30.12660160.o:1389: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n30.12660160.o-1390-
+slurm-H2O-dft-ls.n30.12660160.o-1391- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:2993: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-2994-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-2995- CP2K                                 1  1.0    0.032    0.036   22.703   22.704
+--
+slurm-H2O-dft-ls.n30.12660160.o:3386: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n30.12660160.o-3387-
+slurm-H2O-dft-ls.n30.12660160.o-3388- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:6837: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-6838-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-6839- CP2K                                 1  1.0    0.063    0.067   69.905   69.905
+--
+slurm-H2O-dft-ls.n30.12660160.o:7209: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n30.12660160.o-7210-
+slurm-H2O-dft-ls.n30.12660160.o-7211- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:14212: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-14213-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-14214- CP2K                                 1  1.0    0.140    0.148  158.245  158.245
+--
+slurm-H2O-dft-ls.n30.12660160.o:14572: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n30.12660160.o-14573-
+slurm-H2O-dft-ls.n30.12660160.o-14574- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:27443: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-27444-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-27445- CP2K                                 1  1.0    0.269    0.280  300.584  300.586
+--
+slurm-H2O-dft-ls.n30.12660160.o:27798: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n30.12660160.o-27799-
+slurm-H2O-dft-ls.n30.12660160.o-27800- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n30.12660160.o:49405: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n30.12660160.o-49406-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n30.12660160.o-49407- CP2K                                 1  1.0    0.443    0.461  527.898  527.899
+--
+slurm-H2O-dft-ls.n36.12660162.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n36.12660162.o-43-
+slurm-H2O-dft-ls.n36.12660162.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:952: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-953-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-954- CP2K                                 1  1.0    0.017    0.021    6.736    6.736
+--
+slurm-H2O-dft-ls.n36.12660162.o:1381: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n36.12660162.o-1382-
+slurm-H2O-dft-ls.n36.12660162.o-1383- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:2990: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-2991-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-2992- CP2K                                 1  1.0    0.033    0.040   16.107   16.107
+--
+slurm-H2O-dft-ls.n36.12660162.o:3397: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n36.12660162.o-3398-
+slurm-H2O-dft-ls.n36.12660162.o-3399- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:6843: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-6844-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-6845- CP2K                                 1  1.0    0.055    0.062   47.879   47.879
+--
+slurm-H2O-dft-ls.n36.12660162.o:7227: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n36.12660162.o-7228-
+slurm-H2O-dft-ls.n36.12660162.o-7229- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:14225: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-14226-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-14227- CP2K                                 1  1.0    0.126    0.146  116.708  116.709
+--
+slurm-H2O-dft-ls.n36.12660162.o:14596: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n36.12660162.o-14597-
+slurm-H2O-dft-ls.n36.12660162.o-14598- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:27462: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-27463-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-27464- CP2K                                 1  1.0    0.229    0.238  232.988  232.989
+--
+slurm-H2O-dft-ls.n36.12660162.o:27821: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n36.12660162.o-27822-
+slurm-H2O-dft-ls.n36.12660162.o-27823- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n36.12660162.o:49423: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n36.12660162.o-49424-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n36.12660162.o-49425- CP2K                                 1  1.0    0.376    0.401  429.359  429.360
+--
+slurm-H2O-dft-ls.n6.12660171.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n6.12660171.o-43-
+slurm-H2O-dft-ls.n6.12660171.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.12660171.o:947: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n6.12660171.o-948-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n6.12660171.o-949- CP2K                                 1  1.0    0.027    0.030    8.877    8.878
+--
+slurm-H2O-dft-ls.n6.12660171.o:1345: CP2K| Input file name                                      H2O-dft-ls.NREP2.inp
+slurm-H2O-dft-ls.n6.12660171.o-1346-
+slurm-H2O-dft-ls.n6.12660171.o-1347- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.12660171.o:2939: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n6.12660171.o-2940-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n6.12660171.o-2941- CP2K                                 1  1.0    0.079    0.084   34.318   34.319
+--
+slurm-H2O-dft-ls.n6.12660171.o:3325: CP2K| Input file name                                      H2O-dft-ls.NREP3.inp
+slurm-H2O-dft-ls.n6.12660171.o-3326-
+slurm-H2O-dft-ls.n6.12660171.o-3327- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.12660171.o:6753: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n6.12660171.o-6754-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n6.12660171.o-6755- CP2K                                 1  1.0    0.256    0.260  190.036  190.037
+--
+slurm-H2O-dft-ls.n6.12660171.o:7109: CP2K| Input file name                                      H2O-dft-ls.NREP4.inp
+slurm-H2O-dft-ls.n6.12660171.o-7110-
+slurm-H2O-dft-ls.n6.12660171.o-7111- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.12660171.o:14089: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n6.12660171.o-14090-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n6.12660171.o-14091- CP2K                                 1  1.0    0.609    0.620  530.792  530.795
+--
+slurm-H2O-dft-ls.n6.12660171.o:14433: CP2K| Input file name                                      H2O-dft-ls.NREP5.inp
+slurm-H2O-dft-ls.n6.12660171.o-14434-
+slurm-H2O-dft-ls.n6.12660171.o-14435- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.12660171.o:15390: CP2K| Input file name                                      H2O-dft-ls.NREP6.inp
+slurm-H2O-dft-ls.n6.12660171.o-15391-
+slurm-H2O-dft-ls.n6.12660171.o-15392- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.incomplete.12658940.o:42: CP2K| Input file name                                      H2O-dft-ls.NREP1.inp
+slurm-H2O-dft-ls.n6.incomplete.12658940.o-43-
+slurm-H2O-dft-ls.n6.incomplete.12658940.o-44- GLOBAL| Force Environment number                                              1
+--
+slurm-H2O-dft-ls.n6.incomplete.12658940.o:947: SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+slurm-H2O-dft-ls.n6.incomplete.12658940.o-948-                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+slurm-H2O-dft-ls.n6.incomplete.12658940.o-949- CP2K                                 1  1.0    0.028    0.030    7.932    7.932

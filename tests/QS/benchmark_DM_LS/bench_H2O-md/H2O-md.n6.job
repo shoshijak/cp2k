@@ -1,0 +1,27 @@
+#!/bin/bash -l
+#
+#SBATCH --job-name=bench-H2O-md
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=jakobovits@cscs.ch
+#SBATCH --time=00:10:00
+#SBATCH --nodes=6
+#SBATCH --ntasks-per-core=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=12
+#SBATCH --partition=normal
+#SBATCH --constraint=gpu
+#SBATCH --output=slurm-H2O-md.n6.%j.o
+
+module load daint-gpu
+
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export CRAY_CUDA_MPS=1
+
+ulimit -s unlimited
+
+#srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP1.NSTEP5.inp
+#srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP2.NSTEP5.inp
+#srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP3.NSTEP5.inp
+#srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP4.NSTEP5.inp
+#srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP5.NSTEP5.inp
+srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ~/cp2k/exe/PizDaint/cp2k.psmp H2O-md.NREP6.NSTEP5.inp
