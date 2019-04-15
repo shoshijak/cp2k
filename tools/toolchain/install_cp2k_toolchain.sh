@@ -437,6 +437,9 @@ while [ $# -ge 1 ] ; do
                 P100)
                     export GPUVER=P100
                     ;;
+                V100)
+                    export GPUVER=V100
+                    ;;
                 no)
                     export GPUVER=no
                     ;;
@@ -873,6 +876,9 @@ case $GPUVER in
         ;;
     P100)
         export ARCH_NUM=60
+        ;;
+    V100)
+        export ARCH_NUM=70
         ;;
     no)
         export ARCH_NUM=no
