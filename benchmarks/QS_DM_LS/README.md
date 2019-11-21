@@ -24,12 +24,12 @@ The best configurations are shown below. Click the links under "Detailed Results
 
 | Machine Name | Architecture | Date       | SVN Revision | Fastest time (s) | Number of Cores | Number of Threads                  | Detailed Results |
 | ------------ | ------------ | ---------- | ------------ | ---------------- | --------------- | ---------------------------------- | ---------------- |
-| HECToR       | Cray XE6     | 16/1/2014  | 13196        | 98.256           | 65536           | 8 OMP threads per MPI task	        | [hector-h2o-dft-ls](https://www.cp2k.org/performance:hector-h2o-dft-ls) |
-| ARCHER	   | Cray XC30	  | 8/1/2014   | 13473	      | 28.476	         | 49152           | 4 OMP threads per MPI task	        | [archer-h2o-dft-ls](https://www.cp2k.org/performance:archer-h2o-dft-ls) |
-| Magnus	   | Cray XC40	  | 3/12/2014  | 14377	      | 30.921	         | 24576           | 2 OMP threads per MPI task	        | [magnus-h2o-dft-ls](https://www.cp2k.org/performance:magnus-h2o-dft-ls) |
-| Piz Daint	   | Cray XC30	  | 12/05/2015 | 15268	      | 27.900	         | 32768           | 2 OMP threads per MPI task, no GPU	| [piz-daint-h2o-dft-ls](https://www.cp2k.org/performance:piz-daint-h2o-dft-ls) |
-| Cirrus	   | SGI ICE XA	  | 24/11/2016 | 17566	      | 543.032	         | 2016            | 2 OMP threads per MPI task	        | [cirrus-h2o-dft-ls](https://www.cp2k.org/performance:cirrus-h2o-dft-ls) |
-| Noctua	   | Cray CS500	  | 25/09/2019 | 9f58d81      | 37.730	         | 10240           | 10 OMP thread per MPI task	        | [noctua-h2o-dft-ls](https://www.cp2k.org/performance:noctua-h2o-dft-ls) |
+| HECToR       | Cray XE6     | 16/1/2014  | 13196        | 98.256           | 65536           | 8 OMP threads per MPI task         | [hector-h2o-dft-ls](https://www.cp2k.org/performance:hector-h2o-dft-ls) |
+| ARCHER       | Cray XC30    | 8/1/2014   | 13473        | 28.476           | 49152           | 4 OMP threads per MPI task         | [archer-h2o-dft-ls](https://www.cp2k.org/performance:archer-h2o-dft-ls) |
+| Magnus       | Cray XC40    | 3/12/2014  | 14377        | 30.921           | 24576           | 2 OMP threads per MPI task         | [magnus-h2o-dft-ls](https://www.cp2k.org/performance:magnus-h2o-dft-ls) |
+| Piz Daint    | Cray XC30    | 12/05/2015 | 15268        | 27.900           | 32768           | 2 OMP threads per MPI task, no PU  | [piz-daint-h2o-dft-ls](https://www.cp2k.org/performance:piz-daint-h2o-dft-ls) |
+| Cirrus       | SGI ICE XA   | 24/11/2016 | 17566        | 543.032          | 2016            | 2 OMP threads per MPI task         | [cirrus-h2o-dft-ls](https://www.cp2k.org/performance:cirrus-h2o-dft-ls) |
+| Noctua       | Cray CS500   | 25/09/2019 | 9f58d81      | 37.730           | 10240           | 10 OMP thread per MPI task         | [noctua-h2o-dft-ls](https://www.cp2k.org/performance:noctua-h2o-dft-ls) |
 
 ### Weak Scaling on Piz Daint, CSCS
 

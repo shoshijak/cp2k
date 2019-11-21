@@ -1,6 +1,6 @@
-*title: cp2k-mode.el README, author: Lianheng Tong, date: Wednesday, 2014/01/22*
-
 # `cp2k-mode.el`
+
+*title*: cp2k-mode.el README, *author*: Lianheng Tong, *date*: Wednesday, 2014/01/22
 
 `cp2k-mode.el` provides a major mode in emacs for editing CP2K input
 files. It has been tested on emacs 2.1, 2.3 and 2.4.
@@ -25,7 +25,7 @@ files. It has been tested on emacs 2.1, 2.3 and 2.4.
   - `cp2k-beginning-of-block`: goes to the beginning of the subsection, marks the current cursor position.
   - `cp2k-end-of-block`:       goes to the ending of the subsection, marks the current cursor position.
 
-### Key Bindings:
+### Key Bindings
 
 | character     |               |
 | ------------- |---------------|
@@ -39,6 +39,7 @@ files. It has been tested on emacs 2.1, 2.3 and 2.4.
 | C-c C-t       | `show-subtree`
 
 ## Installation
+
 You need to put `cp2k-mode.el` in one of your local emacs lisp
 directories, which is in the search path of your emacs installation.
 
@@ -48,7 +49,7 @@ If you have never installed any packages manually before, and do not
 know the search path of your emacs installation, then in your home
 directory create directory:
 
-```
+```console
 ~/.emacs.d/lisp/
 ```
 
@@ -78,6 +79,7 @@ to your `.emacs` file.
 ### Tell emacs to recognize `*.inp` automatically as a cp2k input file
 
 Add
+
 ```emacs
 (add-to-list 'auto-mode-alist '("\\.inp\\'" . cp2k-mode))
 ```

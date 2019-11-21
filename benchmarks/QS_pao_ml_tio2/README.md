@@ -20,7 +20,7 @@ Reference energies and timings using CP2K svn:17405, Piz Daint, Cray XC30, 1024 
 
 (last column timings per step)
 
-```
+```bash
 > grep SCF out | head -n 10
  ------------------------------ Linear scaling SCF -----------------------------
  SCF     1   -552962.443966503   -552962.443966503   28.188702
@@ -36,7 +36,7 @@ Reference energies and timings using CP2K svn:17405, Piz Daint, Cray XC30, 1024 
 
 ### MD Energy File
 
-```
+```bash
 > cat pao_ml_md-1.ener
 #     Step Nr.          Time[fs]        Kin.[a.u.]          Temp[K]            Pot.[a.u.]        Cons Qty[a.u.]        UsedTime[s]
          0            0.000000       110.495412573       300.000000000   -554937.745690580   -554827.250278007         0.000000000
@@ -64,7 +64,7 @@ Reference energies and timings using CP2K svn:17405, Piz Daint, Cray XC30, 1024 
 
 ### Timings
 
-```
+```bash
  SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
                                 MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
  CP2K                                 1  1.0    0.182    0.228 8802.156 8802.158

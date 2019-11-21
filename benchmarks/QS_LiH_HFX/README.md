@@ -14,13 +14,13 @@ This is a single-point DFT energy calculation using Quickstep GAPW (Gaussian and
 
 ## Benchmark Requirements
 
-To run these this benchmark, CP2K needs to be compiled with libint support (-D__LIBINT), and it is advantageous to have a OMP/MPI hybrid code (cp2k.psmp). 
+To run these this benchmark, CP2K needs to be compiled with libint support (-D__LIBINT), and it is advantageous to have a OMP/MPI hybrid code (cp2k.psmp).
 
 ## How to Run the Benchmark
 
 1) as a preliminary step, not part of the benchmark: run `input_bulk_B88_3.inp` (5min. with 256x1 mpixomp tasks) and rename the resulting wavefunction file `LiH_bulk_3-RESTART.wfn` to `B88.wfn`
 
-```
+```bash
 cp LiH_bulk_3-RESTART.wfn B88.wfn
 ```
 
@@ -28,7 +28,7 @@ cp LiH_bulk_3-RESTART.wfn B88.wfn
 
 The obtained energies should be similar to (obtained on 2048 MPI x 8 OMP cores):
 
-```
+```bash
      1  OT CG          0.15E+00    139.386     0.0014482195     -870.3838179520
      2  OT LS          0.30E+00     19.767     1.0000000000     -870.7951031236
      3  OT CG          0.30E+00     20.724     0.0001614074     -870.9275954835
@@ -42,39 +42,39 @@ The obtained energies should be similar to (obtained on 2048 MPI x 8 OMP cores):
 
 The amount of memory available per MPI process must be altered according to the number of MPI processes being used. If this is not done the benchmark will crash with an out of memory (OOM) error. The input file keyword `MAX_MEMORY` in `input_bulk_HFX_3.inp` needs to be changed as follows:
 
-```
+```bash
 MAX_MEMORY 14000
 ```
 
 should be changed to
 
-```
+```bash
 MAX_MEMORY new_value
 ```
 
 The new value of `MAX_MEMORY` is chosen by dividing the total amount of memory available on a node by the number of MPI processes being used per node.
 If a shorter runtime is desirable, the following line in `input_bulk_HFX_3.inp`:
 
-```
+```bash
 MAX_SCF 20
 ```
 
 may be changed to
 
-```
+```bash
 MAX_SCF 1
 ```
 
 in order to reduce the maximum number of SCF cycles and hence the execution time.
 If the runtime or required memory needs to be reduced so the benchmark can run on a smaller number of nodes, the OPT1 basis set can be used instead of the default OPT2. To this end, the line
 
-```
+```bash
 BASIS_SET OPT2
 ```
 
 in `input_bulk_B88_3.inp` and in `input_bulk_HFX_3.inp` should be changed to
 
-```
+```bash
 BASIS_SET OPT1
 ```
 
@@ -86,12 +86,12 @@ The best configurations are shown below. Click the links under "Detailed Results
 
 | Machine Name | Architecture | Date       | SVN Revision | Fastest time (s) | Number of cores | Number of threads                  | Detailed results |
 | ------------:| ------------:| ----------:| ------------:| ----------------:| ---------------:| ----------------------------------:| ----------------:|
-| HECToR       | Cray XE6     | 21/1/2014  | 13196(*)     | 121.362          | 65536           | 8 OMP threads per MPI task	        | [hector-lih-hfx](https://www.cp2k.org/performance:hector-lih-hfx) |
-| ARCHER	   | Cray XC30	  | 9/1/2014   | 13473(*)	  | 51.172	         | 49152           | 6 OMP threads per MPI task	        | [archer-lih-hfx](https://www.cp2k.org/performance:archer-lih-hfx) |
-| Magnus	   | Cray XC40	  | 10/11/2014 | 14377(*)	  | 62.075	         | 24576           | 4 OMP threads per MPI task	        | [magnus-lih-hfx](https://www.cp2k.org/performance:magnus-lih-hfx) |
-| Piz Daint	   | Cray XC30	  | 12/05/2015 | 15268        | 66.051	         | 32768           | 4 OMP threads per MPI task, no GPU	| [piz-daint-lih-hfx](https://www.cp2k.org/performance:piz-daint-lih-hfx) |
-| Cirrus	   | SGI ICE XA	  | 24/11/2016 | 17566	      | 483.676	         | 2016            | 6 OMP threads per MPI task	        | [cirrus-lih-hfx](https://www.cp2k.org/performance:cirrus-lih-hfx) |
-| Noctua	   | Cray CS500	  | 25/09/2019 | 9f58d81      | 131.290	         | 10240           | 4 OMP thread per MPI task	        | [noctua-lih-hfx](https://www.cp2k.org/performance:noctua-lih-hfx) |
+| HECToR       | Cray XE6     | 21/1/2014  | 13196(*)     | 121.362          | 65536           | 8 OMP threads per MPI task         | [hector-lih-hfx](https://www.cp2k.org/performance:hector-lih-hfx) |
+| ARCHER       | Cray XC30    | 9/1/2014   | 13473(*)     | 51.172           | 49152           | 6 OMP threads per MPI task         | [archer-lih-hfx](https://www.cp2k.org/performance:archer-lih-hfx) |
+| Magnus       | Cray XC40    | 10/11/2014 | 14377(*)     | 62.075           | 24576           | 4 OMP threads per MPI task         | [magnus-lih-hfx](https://www.cp2k.org/performance:magnus-lih-hfx) |
+| Piz Daint    | Cray XC30    | 12/05/2015 | 15268        | 66.051           | 32768           | 4 OMP threads per MPI task, no GPU | [piz-daint-lih-hfx](https://www.cp2k.org/performance:piz-daint-lih-hfx) |
+| Cirrus       | SGI ICE XA   | 24/11/2016 | 17566        | 483.676          | 2016            | 6 OMP threads per MPI task         | [cirrus-lih-hfx](https://www.cp2k.org/performance:cirrus-lih-hfx) |
+| Noctua       | Cray CS500   | 25/09/2019 | 9f58d81      | 131.290          | 10240           | 4 OMP thread per MPI task          | [noctua-lih-hfx](https://www.cp2k.org/performance:noctua-lih-hfx) |
 
 (*) Prior to r14945, a bug resulted in an underestimation of the number of ERIs which should be computed (by roughly 50% for this benchmark. Therefore these results cannot be compared directly with later ones.
 

@@ -28,12 +28,12 @@ The best configurations are shown below. Click the links under "Detailed Results
 
 | Machine Name | Architecture | Date       | SVN Revision | Fastest time (s) | Number of Cores | Number of Threads                  | Detailed Results |
 | ------------ | ------------ | ---------- | ------------ | ---------------- | --------------- | ---------------------------------- | ---------------- |
-| HECToR       | Cray XE6     | 13/1/2014  | 13196	      | 141.633          | 49152           | 8 OMP threads per MPI task	        | [hector-h2o-64-ri-mp2](https://www.cp2k.org/performance:hector-h2o-64-ri-mp2) |
-| ARCHER	   | Cray XC30	  | 9/1/2014   | 13473	      | 83.945	         | 36864           | 4 OMP threads per MPI task	        | [archer-h2o-64-ri-mp2](https://www.cp2k.org/performance:archer-h2o-64-ri-mp2) |
-| Magnus	   | Cray XC40	  | 4/11/2014  | 14377	      | 63.891	         | 24576           | 6 OMP threads per MPI task	        | [magnus-h2o-64-ri-mp2](https://www.cp2k.org/performance:magnus-h2o-64-ri-mp2) |
-| Piz Daint	   | Cray XC30	  | 12/05/2015 | 15268	      | 48.15	         | 32768           | 8 OMP threads per MPI task, no GPU | [piz-daint-h2o-64-ri-mp2](https://www.cp2k.org/performance:piz-daint-h2o-64-ri-mp2) |
-| Cirrus	   | SGI ICE XA	  | 24/11/2016 | 17566	      | 303.571	         | 2016            | 1 OMP thread per MPI task	        | [cirrus-h2o-64-ri-mp2](https://www.cp2k.org/performance:cirrus-h2o-64-ri-mp2) |
-| Noctua	   | Cray CS500	  | 25/09/2019 | 9f58d81      | 82.571	         | 10240           | 2 OMP thread per MPI task	        | [noctua-h2o-64-ri-mp2](https://www.cp2k.org/performance:noctua-h2o-64-ri-mp2) |
+| HECToR       | Cray XE6     | 13/1/2014  | 13196        | 141.633          | 49152           | 8 OMP threads per MPI task         | [hector-h2o-64-ri-mp2](https://www.cp2k.org/performance:hector-h2o-64-ri-mp2) |
+| ARCHER       | Cray XC30    | 9/1/2014   | 13473        | 83.945           | 36864           | 4 OMP threads per MPI task         | [archer-h2o-64-ri-mp2](https://www.cp2k.org/performance:archer-h2o-64-ri-mp2) |
+| Magnus       | Cray XC40    | 4/11/2014  | 14377        | 63.891           | 24576           | 6 OMP threads per MPI task         | [magnus-h2o-64-ri-mp2](https://www.cp2k.org/performance:magnus-h2o-64-ri-mp2) |
+| Piz Daint    | Cray XC30    | 12/05/2015 | 15268        | 48.15            | 32768           | 8 OMP threads per MPI task, no GPU | [piz-daint-h2o-64-ri-mp2](https://www.cp2k.org/performance:piz-daint-h2o-64-ri-mp2) |
+| Cirrus       | SGI ICE XA   | 24/11/2016 | 17566        | 303.571          | 2016            | 1 OMP thread per MPI task          | [cirrus-h2o-64-ri-mp2](https://www.cp2k.org/performance:cirrus-h2o-64-ri-mp2) |
+| Noctua       | Cray CS500   | 25/09/2019 | 9f58d81      | 82.571           | 10240           | 2 OMP thread per MPI task          | [noctua-h2o-64-ri-mp2](https://www.cp2k.org/performance:noctua-h2o-64-ri-mp2) |
 
 ### Results on Monte Rosa, CSCS
 

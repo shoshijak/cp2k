@@ -19,6 +19,10 @@ repos:
     rev: stable
     hooks:
     -   id: black
+-   repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 1.11.0
+    hooks:
+    -   id: markdownlint
 -   repo: local
     hooks:
     -   id: doxify

@@ -9,13 +9,15 @@ The benchmark exercises in particular the sparse matrix handling and linear scal
 ## Typical timings and setup
 
 A typical parallel run will require on the order of 256 nodes, to see completion of the benchmark in a reasonable time, and memory consumption. An invocation with slurm on a system with 32 threads per node (dual socket, Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz, Piz Daint multi-core) could look like:
-```
+
+```bash
 export OMP_NUM_THREADS=8
 srun --cpu-bind=none --nodes=256 --ntasks=1024 --ntasks-per-node=4 --cpus-per-task=8 ./cp2k.psmp -i stmv_xtb.inp -o stmv_xtb.out
 ```
+
 Which would need roughly 7Gb per rank (28Gb per node), and would run in in less than 4h. The timing report for  this run (based on CP2K 7.0, git:bf104a630):
 
-```
+```bash
 SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
                                 MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
  CP2K                                 1  1.0    6.012    6.487 8256.073 8256.198
@@ -103,8 +105,7 @@ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
 
 and DBCSR statistics
 
-```
-
+```bash
  COUNTER                                    TOTAL       BLAS       SMM       ACC
  flops     2 x     2 x     2       36142856249008       0.0%    100.0%      0.0%
  flops     2 x     2 x     8       39213980112512       0.0%    100.0%      0.0%
@@ -183,7 +184,8 @@ and DBCSR statistics
 ## Key output elements
 
 SCF cycles output looks like
-```
+
+```bash
  ------------------------------ Linear scaling SCF -----------------------------
  SCF     1  -2019286.740626037  -2019286.740626037  257.119279
  SCF     2  -2022372.558790133     -3085.818164097  283.782252

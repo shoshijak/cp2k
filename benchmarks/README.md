@@ -36,9 +36,9 @@ Some benchmarks require a preliminary step to generate an input file, e.g. a wav
 
 The general way to run the benchmarks with the hybrid parallel executable is, e.g. for 2 threads per rank:
 
-```
-export OMP_NUM_THREADS=2
-parallel_launcher launcher_options path_to_cp2k.psmp -i inputfile.inp -o logfile.log
+```console
+> export OMP_NUM_THREADS=2
+> parallel_launcher launcher_options path_to_cp2k.psmp -i inputfile.inp -o logfile.log
 ```
 
 where:
@@ -49,8 +49,9 @@ where:
 ### Obtain Benchmark Results
 
 The reported walltime for a given run can be obtained by querying the resulting `.log` file for CP2K's internal timing, as follows:
-```
-$ grep "CP2K     "  *.log
+
+```console
+> grep "CP2K     "  *.log
 ```
 
 Moreover, the end of the resulting `.log` files contains some performance numbers:

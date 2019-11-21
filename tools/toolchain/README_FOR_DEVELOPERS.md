@@ -1,10 +1,9 @@
-## Structure of the toolchain scripts:
+# Structure of the toolchain scripts
 
 - `install_cp2k_toolchain.sh` is the main script that will call all
   other scripts.  It contains default flag settings, user input
   parser, calls to each package installation scripts and the
   generator of the CP2K arch files.
-
 - `script/install_*.sh` are the installation scripts for individual
   packages. They are relatively independent, in the sense that by
   running `script/install_PKG.sh` it should install the package on its
@@ -21,25 +20,20 @@
   - The `install/setup` file contains all the instructions for setting
     up the correct environment before the user can compile and/or
     run CP2K.
-
 - `script/toolkit.sh` contains all the macros that may be used by all
   of the scripts, and provides functionalities such as prepending a
   path, checking if a library exists etc.
-
 - `script/common_var.sh` contains all of the common variables used by
   each installation scripts. All of the variables in the file should
   have a default value, but allow the environment to set the values,
   using: `VAR=${VAR:-default_value}`.
-
 - `script/parse_if.py` is a python code for parsing the `IF_XYZ(A|B)`
   constructs in the script. Nested structures will be parsed
   correctly. See
   [`IF_XYZ` constructs](./README_FOR_DEVELOPERS.md#the-if_xyz-constructs) below.
-
 - `checksums.sha256` contains the pre-calculated SHA256 checksums for
   the tar balls of all of the packages. This is used by the
   `download_pkg` macro in `script/toolkit.sh`.
-
 - `arch_base.tmpl` contains the template skeleton structure for the
   arch files. The `install_cp2k_toolchain` script will set all the
   variables used in the template file, and then do an eval to expand
@@ -50,18 +44,18 @@
 
 The `enable-FEATURE` options control whether a FEATURE is enabled or disabled.
 Possible values are:
+
 - `yes` (equivalent to using the option-keyword alone)
 - `no`
 
-## `with_PKG` and `PKG_MODE` variables:
+## `with_PKG` and `PKG_MODE` variables
 
 The `with_PKG` options controls how a package is going to be
 installed:
-- either compiled and installed from source downloaded
-(`install`, or the option-keyword alone),
+
+- either compiled and installed from source downloaded (`install`, or the option-keyword alone),
 - or linked to locations provided by system search paths (`system`),
-- or linked to locations provided by the user
-(`<path>`, path to some directory),
+- or linked to locations provided by the user (`<path>`, path to some directory),
 - or that the installer won't be used (`no`).
 
 For most packages the `with_pkg` variables will act like a switch for
@@ -81,7 +75,7 @@ different arch file versions.
 
 The solution used by this script is to use a syntax construct:
 
-```
+```bash
 IF_XYZ(A | B)
 ```
 
@@ -91,7 +85,7 @@ is not passed as command line option (python `parse_if.py` filename).
 
 The `IF_XYZ(A|B)` construct can be nested, so things like:
 
-```
+```bash
 IF_XYZ(IF_ABC(flag1|flag2) | flag3)
 ```
 
@@ -99,23 +93,22 @@ will parse to *flag1* if both *XYZ* and *ABC* are present in the command
 line arguments of `parser_if.py`, to *flag2* if only *XYZ* is present,
 and *flag3* if nothing is present.
 
-## To ensure portability:
+## To ensure portability
 
 - one should always pass compiler flags through the
   `allowed_gcc_flags` and `allowed_gfortran_flags` filters in
   `scripts/toolkit.sh` to omit any flags that are not supported by
   the gcc version used (or installed by this script).
-
 - note that `allowed_gcc_flags` and `allowed_gfortran_flags` do not work
   with `IF_XYZ` constructs. So if you have something like:
 
-```
+```bash
 FCFLAGS="IF_XYZ(flag1 flag2 | flag3 flag4)"
 ```
 
 Then you should break this into:
 
-```
+```bash
 XYZ_TRUE_FLAGS="flags1 flags2"
 XYZ_FALSE_FLAGS="flags3 flags4"
 # do filtering
@@ -125,7 +118,7 @@ XYZ_FALSE_FLAGS="$(allowed_gcc_flags $XYZ_FALSE_FLAGS)"
 
 So that:
 
-```
+```bash
 FCFLAGS="IF_XYZ($XYZ_TRUE_FLAGS | $XYZ_FALSE_FLAGS)"
 ```
 
@@ -133,35 +126,33 @@ FCFLAGS="IF_XYZ($XYZ_TRUE_FLAGS | $XYZ_FALSE_FLAGS)"
   check with `check_gfortran_module` macro defined in
   `script/tool_kit.sh`. Depending on the gcc version, some intrinsic
   modules may not exist.
-
 - Try to avoid as much hard coding as possible:
   e.g. instead of setting:
 
-```
+```console
 ./configure --prefix=some_dir CC=mpicc FC=mpif90
 ```
 
 use the common variables:
 
-```
+```console
 ./configure --prefix=some_dir CC=${MPICC} FC=${MPIFC}
 ```
 
-## To keep maintainability it is recommended that we follow the following practices:
+## To keep maintainability it is recommended that we follow the following practices
 
 - Reuse as much functionality from the macros defined in the
   `script/toolkit.sh` as possible
-
 - When the existing macros in `script/toolkit.sh` do not provide the
   functionalities you want, it is better to write the new
   functionality as a macro in `script/toolkit.sh`, and then use the
   macro (repeatedly if required) in the actual installation
   script. This keeps the installation scripts uncluttered and more
   readable.
-
 - All packages should install into their own directories, and with a
   lock file created in their respective directory to indicate
   installation has been successful. This allows the script to skip
   over the compilation stages of already installed packages if the
   user terminated the toolchain script at the middle of a run and
   then restarted the script.
+

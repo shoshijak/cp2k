@@ -57,6 +57,6 @@ The script also suggests close-by configurations (lower and higher node-counts) 
 
 ## References
 
-[https://github.com/hfp/xconfigure/raw/master/config/cp2k/plan.sh](https://github.com/hfp/xconfigure/raw/master/config/cp2k/plan.sh)  
+[https://github.com/hfp/xconfigure/raw/master/config/cp2k/plan.sh](https://github.com/hfp/xconfigure/raw/master/config/cp2k/plan.sh)
 [https://xconfigure.readthedocs.io/cp2k/](https://xconfigure.readthedocs.io/cp2k/)
 

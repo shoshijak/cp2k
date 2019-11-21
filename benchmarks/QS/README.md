@@ -16,17 +16,16 @@ Ab-initio molecular dynamics of liquid water using the Born-Oppenheimer approach
 - [`H2O-4096.inp`](H2O-4096.inp): a system of 4'096 water molecules (12'288 atoms, 32'768 electrons) in a 49.7 cubic angstrom cell and MD is run for 10 steps
 - [`H2O-8192.inp`](H2O-8192.inp): a system of 8'192 water molecules (24'576 atoms, 65'536 electrons) in a 62.7 cubic angstrom cell and MD is run for 10 steps
 
-
 ## Results
 
 The best configurations are shown below. Click the links under "Detailed Results"to see more detail.
 
 | Machine Name | Architecture | Date       | SVN Revision | Fastest time (s) | Number of Cores | Number of Threads                 | Detailed Results |
 | ------------ | ------------ | ---------- | ------------ | ---------------- | --------------- | --------------------------------- | ---------------- |
-| HECToR	   | Cray XE6     | 21/1/2014  | 13196        | 39.066           | 512 cores       | 2 OMP threads per MPI task	       | [hector-h2o-64](https://www.cp2k.org/performance:hector-h2o-64) |
-| ARCHER	   | Cray XC30    | 8/1/2014   | 13473        | 18.11            | 576 cores       | 1 OMP thread per MPI task	       | [archer-h2o-64](https://www.cp2k.org/performance:archer-h2o-64) |
-| Magnus	   | Cray XC40    | 22/10/2014 | 14377        | 17.275           | 384 cores       | 1 OMP thread per MPI task	       | [magnus-h2o-64](https://www.cp2k.org/performance:magnus-h2o-64) |
-| Piz Daint	   | Cray XC30    | 12/05/2015 | 15268        | 19.885           | 192 cores       | 1 OMP thread per MPI task, no GPU | [piz-daint-h2o-64](https://www.cp2k.org/performance:piz-daint-h2o-64) |
-| Cirrus	   | SGI ICE XA	  | 24/11/2016 | 17566        | 15.560           | 1152 cores      | 9 OMP threads per MPI task	       | [cirrus-h2o-64](https://www.cp2k.org/performance:cirrus-h2o-64) |
-| Noctua	   | Cray CS500	  | 25/09/2019 | 9f58d81      | 13.3             | 640 cores       | 10 OMP thread per MPI task	       | [noctua-h2o-64](https://www.cp2k.org/performance:noctua-h2o-64) |
+| HECToR       | Cray XE6     | 21/1/2014  | 13196        | 39.066           | 512 cores       | 2 OMP threads per MPI task        | [hector-h2o-64](https://www.cp2k.org/performance:hector-h2o-64) |
+| ARCHER       | Cray XC30    | 8/1/2014   | 13473        | 18.11            | 576 cores       | 1 OMP thread per MPI task         | [archer-h2o-64](https://www.cp2k.org/performance:archer-h2o-64) |
+| Magnus       | Cray XC40    | 22/10/2014 | 14377        | 17.275           | 384 cores       | 1 OMP thread per MPI task         | [magnus-h2o-64](https://www.cp2k.org/performance:magnus-h2o-64) |
+| Piz Daint    | Cray XC30    | 12/05/2015 | 15268        | 19.885           | 192 cores       | 1 OMP thread per MPI task, no GPU | [piz-daint-h2o-64](https://www.cp2k.org/performance:piz-daint-h2o-64) |
+| Cirrus       | SGI ICE XA   | 24/11/2016 | 17566        | 15.560           | 1152 cores      | 9 OMP threads per MPI task        | [cirrus-h2o-64](https://www.cp2k.org/performance:cirrus-h2o-64) |
+| Noctua       | Cray CS500   | 25/09/2019 | 9f58d81      | 13.3             | 640 cores       | 10 OMP thread per MPI task        | [noctua-h2o-64](https://www.cp2k.org/performance:noctua-h2o-64) |
 

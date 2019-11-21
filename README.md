@@ -7,14 +7,17 @@ CP2K is written in Fortran 2008 and can be run efficiently in parallel using a c
 ## Downloading CP2K source code
 
 To clone the current master (development version):
+
 ```console
-$ git clone --recursive https://github.com/cp2k/cp2k.git cp2k
+git clone --recursive https://github.com/cp2k/cp2k.git cp2k
 ```
+
 Note the ``--recursive`` flag that is needed because CP2K uses git submodules.
 
 To clone a release version v*x.y*:
+
 ```console
-$ git clone -b support/vx.y https://github.com/cp2k/cp2k.git cp2k
+git clone -b support/vx.y https://github.com/cp2k/cp2k.git cp2k
 ```
 
 For more information on downloading CP2K, see [Downloading CP2K](https://www.cp2k.org/download).
