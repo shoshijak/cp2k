@@ -18,7 +18,7 @@
 
 ## Results
 
-### Results on Piz Daint, CSCS
+### Results on Piz Daint, CSCS (GPU partition)
 
 | Input File             | Date       | CP2K Git SHA | Number of nodes | Node Configuration  | Runtime |
 | ---------------------- | ---------- | ------------:| ---------------:| ------------------- | ------- |
@@ -27,4 +27,21 @@
 | H2O-128-RI-dRPA-TZ.inp | 2019-12-03 | 78cea8eee    | 1024 nodes      | 2 MPI x 6 OMP       | 487 sec |
 
 *) The timings have been obtained on CRAY-XC50 (PizDaint@CSCS, GPU partition)
+
+### Results on Piz Daint, CSCS (CPU partition)
+
+Following results were obtained in the following conditions:
+
+- Date: 12th February 2020
+- CP2K version: version 7.0 (Development Version, git:78cea8eeebb25e459941d8a28d987c9990d92676)
+- DBCSR version: v2.0.0-rc9 (git:15fdaba855385f12db7599a6e69b51a7a4ce8a9a)
+- CP2K flags: omp libint fftw3 libxc elpa parallel mpi3 scalapack xsmm max_contr=4
+- Machine: Piz Daint (CPU partition), CSCS
+- The cell contents specify the runtime (`grep 'CP2K    ' output.out`) in seconds, while the cells marked with an `X` crashed with out-of-memory errors, and the cells left empty weren't measured.
+
+| Input File             | Number of Nodes | Slurm Configuration    | Runtime [s]  |
+| ---------------------- | ---------------:| ----------------------:| ------------:|
+| H2O-128-RI-dRPA-TZ.inp | 128 nodes       | 4 MPI x 9 OMP per node |         2043 |
+
+*) The timings have been obtained on CRAY-XC40 (PizDaint@CSCS, CPU partition)
 
