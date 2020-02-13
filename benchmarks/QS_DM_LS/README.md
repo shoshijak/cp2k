@@ -31,7 +31,27 @@ The best configurations are shown below. Click the links under "Detailed Results
 | Cirrus	   | SGI ICE XA	  | 24/11/2016 | 17566	      | 543.032	         | 2016            | 2 OMP threads per MPI task	        | [cirrus-h2o-dft-ls](https://www.cp2k.org/performance:cirrus-h2o-dft-ls) |
 | Noctua	   | Cray CS500	  | 25/09/2019 | 9f58d81      | 37.730	         | 10240           | 10 OMP thread per MPI task	        | [noctua-h2o-dft-ls](https://www.cp2k.org/performance:noctua-h2o-dft-ls) |
 
-### Weak Scaling on Piz Daint, CSCS
+### Scaling on Piz Daint, CSCS (CPU partition)
+
+Following results were obtained in the following conditions:
+
+- Date: 12th February 2020
+- CP2K version: version 7.0 (Development Version, git:78cea8eeebb25e459941d8a28d987c9990d92676)
+- DBCSR version: v2.0.0-rc9 (git:15fdaba855385f12db7599a6e69b51a7a4ce8a9a)
+- CP2K flags: omp libint fftw3 libxc elpa parallel mpi3 scalapack xsmm max_contr=4
+- Machine: Piz Daint (CPU partition), CSCS
+- Slurm configuration: 2 MPI ranks per node, 18 OpenMP threads per MPI rank
+- The cell contents specify the runtime (`grep 'CP2K    ' output.out`) in seconds, while the cells marked with an `X` crashed with out-of-memory errors, and the cells left empty weren't measured.
+
+|  nodes / NREP | NREP=1 | NREP=2 | NREP=3 | NREP=4 | NREP=6 | NREP=8 | NREP=9 |
+| ------------- | -----  | -----  | -----  | -----  | -----  | -----  | -----  |
+|  1 node       |   2.8  | 116.8  | 11254.1|   X    |        |        |        |
+|  2 nodes      |   2.2  |  68.7  |  716.5 |   X    |        |        |        |
+|  4 nodes      |   2.3  |  35.0  |  346.0 | 1007.4 |        |        |        |
+|  8 nodes      |   2.4  |  20.9  |  192.8 |  522.2 |   X    |        |        |
+| 16 nodes      |   1.7  |  12.9  |  115.6 |  291.6 |   X    |        |        |
+
+### Scaling on Piz Daint, CSCS (GPU partition)
 
 Following results were obtained in the following conditions:
 
